@@ -16,3 +16,7 @@
 .bg-banner {
     background-image: linear-gradient(180.00deg, rgba(3, 7, 18, 0.5),rgba(3, 7, 18, 0) 100%),url(1), url('../images/banner.png')
 }
+
+.green-bg {
+  background-color: [#1DD100];
+}
