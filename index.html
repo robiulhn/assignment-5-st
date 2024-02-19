@@ -60,7 +60,8 @@
             <h1 class="text-6xl font-extrabold text-white  text-center leading-[5rem]">End-to-End Travel with <br>
                 <span class="text-[#1DD100]">Greenline Paribahan</span>
             </h1>
-            <p class="text-lg font-normal text-white text-center w-[43rem]">Book Your Ride Now: Secure Your Seat with Ease.
+            <p class="text-lg font-normal text-white text-center w-[43rem]">Book Your Ride Now: Secure Your Seat with
+                Ease.
                 Travel Simplified: Reserve Your Bus Tickets Today.</p>
             <button onclick="bookSeat()" id="seat-booking"
                 class="btn text-black text-xl font-bold px-8 bg-[#1DD100] border-none">Buy Tickets</button>
@@ -68,39 +69,42 @@
 
         <!-- total user and ticket sold count -->
         <div class="absolute w-full bottom-0 flex items-end justify-center">
-        <div class="flex gap-6">
-            <!-- users -->
-            <div class="flex justify-center items-center bg-white rounded-3xl border-b-4 border-[#1DD100] p-8 gap-4">
-                <div class="">
-                    <img src="images/people.png" alt="">
+            <div class="flex gap-6">
+                <!-- users -->
+                <div
+                    class="flex justify-center items-center bg-white rounded-3xl border-b-4 border-[#1DD100] p-8 gap-4">
+                    <div class="">
+                        <img src="images/people.png" alt="">
+                    </div>
+                    <div class="">
+                        <h1 class="text-2xl font-bold">500K+</h1>
+                        <p class="text-xl font-medium">Registered users</p>
+                    </div>
                 </div>
-                <div class="">
-                    <h1 class="text-2xl font-bold">500K+</h1>
-                    <p class="text-xl font-medium">Registered users</p>
+                <!-- tickets sold -->
+                <div
+                    class="flex justify-center items-center bg-white rounded-3xl border-b-4 border-[#1DD100] p-8 gap-4">
+                    <div class="">
+                        <img src="images/ticket-cupon.png" alt="">
+                    </div>
+                    <div class="">
+                        <h1 class="text-2xl font-bold">1.7 lacks</h1>
+                        <p class="text-xl font-medium">Tickets sold</p>
+                    </div>
                 </div>
-            </div>
-            <!-- tickets sold -->
-            <div class="flex justify-center items-center bg-white rounded-3xl border-b-4 border-[#1DD100] p-8 gap-4">
-                <div class="">
-                    <img src="images/ticket-cupon.png" alt="">
-                </div>
-                <div class="">
-                    <h1 class="text-2xl font-bold">1.7 lacks</h1>
-                    <p class="text-xl font-medium">Tickets sold</p>
-                </div>
-            </div>
-            <!-- rental partners -->
-            <div class="flex justify-center items-center bg-white rounded-3xl border-b-4 border-[#1DD100] p-8 gap-4">
-                <div class="">
-                    <img src="images/stoppage.png" alt="">
-                </div>
-                <div class="">
-                    <h1 class="text-2xl font-bold">80K+</h1>
-                    <p class="text-xl font-medium">Rental Partners</p>
+                <!-- rental partners -->
+                <div
+                    class="flex justify-center items-center bg-white rounded-3xl border-b-4 border-[#1DD100] p-8 gap-4">
+                    <div class="">
+                        <img src="images/stoppage.png" alt="">
+                    </div>
+                    <div class="">
+                        <h1 class="text-2xl font-bold">80K+</h1>
+                        <p class="text-xl font-medium">Rental Partners</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     </header>
 
@@ -161,7 +165,8 @@
                 <!-- info header -->
                 <div class="flex flex-col justify-center items-center space-y-6 mb-11">
                     <h4 class="text-4xl font-bold text-black">Greenline Paribahan</h4>
-                    <p class="text-lg font-normal w-[46rem] text-center ">Book Your Ride Now: Secure Your Seat with Ease.
+                    <p class="text-lg font-normal w-[46rem] text-center ">Book Your Ride Now: Secure Your Seat with
+                        Ease.
                         Travel Simplified: Reserve Your Bus Tickets Today.</p>
                 </div>
                 <!-- ticket info -->
@@ -362,13 +367,13 @@
                             <!-- selected seats -->
                             <div class="grid grid-cols-3 py-4 text-[#03071299]">
                                 <ul id="seat-num" class="space-y-2">
-                                    
+
                                 </ul>
                                 <ul id="class" class="text-center space-y-2">
-                                    
+
                                 </ul>
                                 <ul id="ticket-price" class="text-right space-y-2">
-                                    
+
 
                                 </ul>
                             </div>
@@ -381,10 +386,12 @@
                             </div>
 
                             <!-- Coupon Input -->
-                            <div id="coupon-code-container" class="flex gap-2 items-center bg-white rounded-xl h-[4rem]">
+                            <div id="coupon-code-container"
+                                class="flex gap-2 items-center bg-white rounded-xl h-[4rem]">
                                 <input id="coupon-code" class="flex-1 rounded-xl h-[4rem] placeholder:p-5"
                                     placeholder="Have any copupon?" type="text" name="" id="">
-                                <button id="coupon-button" class="btn mr-2 text-white bg-[#1DD100] font-semibold" disabled>Apply</button>
+                                <button id="coupon-button" class="btn mr-2 text-white bg-[#1DD100] font-semibold"
+                                    disabled>Apply</button>
                             </div>
 
                             <!-- Grand Price -->
@@ -402,8 +409,8 @@
                                     <div class="label">
                                         <span class="label-text font-semibold">Passenger Name*</span>
                                     </div>
-                                    <input type="text" placeholder="Enter your name"
-                                        class="input input-bordered w-full" required>
+                                    <input type="text" placeholder="Enter your name" class="input input-bordered w-full"
+                                        required>
                                 </label>
                             </div>
                             <!-- p number -->
@@ -428,22 +435,26 @@
                             </div>
                             <!-- next button -->
                             <div class="flex justify-center items-center font-raleway">
-                                <input id="next-btn" type="submit" value="Next" onclick="my_modal_1.showModal()" class="btn w-full bg-[#1DD100] text-white text-xl font-extrabold"></input>
+                                <input id="next-btn" type="submit" value="Next" onclick="my_modal_1.showModal()"
+                                    class="btn w-full bg-[#1DD100] text-white text-xl font-extrabold"></input>
                                 <dialog id="my_modal_1" class="modal">
-                                    <div class="modal-box font-roboto flex flex-col justify-center items-center space-y-5 py-10 px-10">
+                                    <div
+                                        class="modal-box font-roboto flex flex-col justify-center items-center space-y-5 py-10 px-10">
                                         <img src="images/success.png" alt="">
-                                      <h3 class="text-2xl font-bold text-[#27AE60]">SUCCESS</h3>
-                                      <p class="text-xl font-medium text-center">Thank you for Booking Our Bus Seats. 
-                                        We are working hard to find the best service and deals for you. </p>
-                                      <p class="text-xl text-center">Shortly you will find a confirmation in your email.</p>
-                                      <div class="modal-action">
-                                        <form method="dialog">
-                                          <!-- if there is a button in form, it will close the modal -->
-                                          <button id="continue" class="btn bg-[#27AE60] rounded-full text-xl font-semibold text-white px-14">Continue</button>
-                                        </form>
-                                      </div>
+                                        <h3 class="text-2xl font-bold text-[#27AE60]">SUCCESS</h3>
+                                        <p class="text-xl font-medium text-center">Thank you for Booking Our Bus Seats.
+                                            We are working hard to find the best service and deals for you. </p>
+                                        <p class="text-xl text-center">Shortly you will find a confirmation in your
+                                            email.</p>
+                                        <div class="modal-action">
+                                            <form method="dialog">
+                                                <!-- if there is a button in form, it will close the modal -->
+                                                <button id="continue"
+                                                    class="btn bg-[#27AE60] rounded-full text-xl font-semibold text-white px-14">Continue</button>
+                                            </form>
+                                        </div>
                                     </div>
-                                  </dialog>
+                                </dialog>
                             </div>
                         </div>
                         <!-- Terms & Conditions -->
@@ -457,41 +468,43 @@
             </div>
         </section>
 
-    <!-- Footer -->
+        <!-- Footer -->
 
-    <footer class="bg-black text-white font-raleway">
-        <div class="container w-[96%] lg:w-[85%] mx-auto py-28">
-            <!-- footer top part -->
-            <div class="flex justify-between pb-12">
-                <div class="space-y-4">
-                    <h1 class="text-4xl font-extrabold">Bus Ticket</h1>
-                    <p class="font-inter text-lg text-[#ffffffcc]">Bus Ticket is a digital platform to make your daily
-                        commuting better.</p>
+        <footer class="bg-black text-white font-raleway">
+            <div class="container w-[96%] lg:w-[85%] mx-auto py-28">
+                <!-- footer top part -->
+                <div class="flex justify-between pb-12">
+                    <div class="space-y-4">
+                        <h1 class="text-4xl font-extrabold">Bus Ticket</h1>
+                        <p class="font-inter text-lg text-[#ffffffcc]">Bus Ticket is a digital platform to make your
+                            daily
+                            commuting better.</p>
+                    </div>
+                    <div class="space-y-5 flex flex-col justify-center items-center">
+                        <p class="text-xl font-semibold">Download our app</p>
+                        <img src="images/g-play.svg" alt="">
+                    </div>
                 </div>
-                <div class="space-y-5 flex flex-col justify-center items-center">
-                    <p class="text-xl font-semibold">Download our app</p>
-                    <img src="images/g-play.svg" alt="">
+
+                <hr class="border-dashed">
+
+                <!-- footer bottom part -->
+                <div class="flex justify-between mt-8">
+                    <div class="">
+                        <p class="font-inter text-[#ffffffcc]">@all rights reserved, Bus Ticket services limited. 2024
+                        </p>
+                    </div>
+                    <div class="flex gap-8 font-inter font-medium">
+                        <p>Terms & condition</p>
+                        <p>Return & refund policy</p>
+                        <p>Privacy policy</p>
+                    </div>
                 </div>
             </div>
+        </footer>
+        <!-- Javascript -->
+        <script src="script/seat-selection.js"></script>
 
-            <hr class="border-dashed">
-
-            <!-- footer bottom part -->
-            <div class="flex justify-between mt-8">
-                <div class="">
-                    <p class="font-inter text-[#ffffffcc]">@all rights reserved, Bus Ticket services limited. 2024</p>
-                </div>
-                <div class="flex gap-8 font-inter font-medium">
-                    <p>Terms & condition</p>
-                    <p>Return & refund policy</p>
-                    <p>Privacy policy</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Javascript -->
-    <script src="script/seat-selection.js"></script>
-
-</body>
+    </body>
 
 </html>
